@@ -17,6 +17,15 @@
 
 <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Equipe_SA.png'/>
 
+<ul>Nicholas:
+
+<li>BackEnd</li>
+<li>Página Cadastro (Paciente)</li>
+<li>Página Cadastro (Médico)</li>
+<li>Login</li>
+<li>Página Inicial (Home)</li>
+</ul>
+
 ## 🎨 Desenvolvimento
 
 <p>Logo abaixo está uma imagem de como ficou a prototipação de telas quando entregue o projeto, foram um total de 24 WireFrames desenvolvidos, porem para o Figma tivemos que fazer em torno de 27 páginas!</p>
