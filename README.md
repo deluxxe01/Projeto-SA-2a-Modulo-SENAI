@@ -27,4 +27,6 @@
 
 <p>Aqui estão alguns imagens dos slides!</p>
 
+<img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Slide_Um.png'/>
+<img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Slide_Dois.png'/>
 
