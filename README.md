@@ -36,3 +36,7 @@
 
 <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Slide_Um.png'/>
 <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Slide_Dois.png'/>
+
+<p>Então indo para o branding, da marca OncoMed. Logo abaixo temos a composição da logo, a paleta de cores que utilizamos no site e por fim, a mascote Jade!</p>
+
+<img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Slide_Tres.png'/>
