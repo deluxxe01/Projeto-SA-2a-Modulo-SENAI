@@ -11,7 +11,7 @@
 
 <p>Seja bem vindo a este repositório! Neste projeto desenvolvemos um site de agendamentos, com o intuito de facilitar o acesso as consultas para tratamento de câncer!</p>
 
-## <img src='https://media.tenor.com/images/9b507b5b7a9ba54417938853b2f08199/tenor.gif'/> Nossa Equipe 
+## <img src='https://media.tenor.com/images/9b507b5b7a9ba54417938853b2f08199/tenor.gif' width='50px' height='50px'/> Nossa Equipe 
 
 <p>Aqui esta a nossa equipe, caso você queira acessar o GitHub de alguns dos membros deste projeto deixarei o link logo abaixo! E irei colocar meu link de perfil também 😋</p>
 
