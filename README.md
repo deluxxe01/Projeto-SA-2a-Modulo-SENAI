@@ -16,7 +16,7 @@
 <p>Aqui esta a nossa equipe, caso você queira acessar o GitHub de alguns dos membros deste projeto deixarei o link logo abaixo! E irei colocar meu link de perfil também 😋</p>
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://avatars.githubusercontent.com/u/153335120?v=4" alt="Avatar de Nicholas" width='100px' height='100px' border-radius='20%'/>
+  <img src="https://avatars.githubusercontent.com/u/153335120?v=4" alt="Avatar de Nicholas" width='100px' height='100px' border-radius='200px'/>
   <a href="https://github.com/nicholas-sc-08">Nicholas</a>
 </div>
 
