@@ -19,6 +19,6 @@
 
 <p>Caso você queira ver o Figma detalhadamente, clique no botão para visitar a prototipagem do projeto!</p>
 <a href='https://www.figma.com/design/VizoKBMnKxm9Z9LTnxk8gb/OncoMed-S.A?t=AahHoVgF3qlPIBWa-1'>
-<button>Acesse o Figma!</button>
+<button style="background-color: 437118 color: white">Acesse o Figma!</button>
 </a>
 
