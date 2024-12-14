@@ -16,3 +16,6 @@
 <p>Logo abaixo está uma imagem de como ficou a prototipação de telas quando entregue o projeto, foram um total de 24 WireFrames desenvolvidos, porem para o Figma tivemos que fazer em torno de 27 páginas!</p>
 
 <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Prototipagem_Figma.png'/>
+
+<p>Caso você queira ver o Figma detalhadamente, acesse o link para visitar a prototipagem do projeto!</p>
+
