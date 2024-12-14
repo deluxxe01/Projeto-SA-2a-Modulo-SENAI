@@ -15,9 +15,12 @@
 
 <p>Aqui esta a nossa equipe, caso você queira acessar o GitHub de alguns dos membros deste projeto deixarei o link logo abaixo! E irei colocar meu link de perfil também 😋</p>
 
-<img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Equipe_SA.png'/>
+<div>
 
-<a href='https://github.com/nicholas-sc-08'>Nicholas</a>
+  <img src='https://avatars.githubusercontent.com/u/153335120?v=4'/>
+  <a href='https://github.com/nicholas-sc-08'>Nicholas</a>
+  
+</div>
 
 
 ## 🎨 Desenvolvimento
