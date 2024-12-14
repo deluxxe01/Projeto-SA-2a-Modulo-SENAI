@@ -15,13 +15,7 @@
 
 <p>Aqui esta a nossa equipe, caso você queira acessar o GitHub de alguns dos membros deste projeto deixarei o link logo abaixo! E irei colocar meu link de perfil também 😋</p>
 
-<div text-align='center'>
-  <img src="https://avatars.githubusercontent.com/u/153335120?v=4" alt="Avatar de Nicholas" width='100px' height='100px'/>
-  <div>
-    <p>Nicholas Serencovich Carvalho</p>
-    <a href="https://github.com/nicholas-sc-08">Acessar GitHub</a>
-  </div>
-</div>
+
 
 
 ## 🎨 Desenvolvimento
