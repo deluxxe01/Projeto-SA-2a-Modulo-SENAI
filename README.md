@@ -18,7 +18,7 @@
 <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Equipe_SA.png'/>
 
 <h5>Nicholas</h5>
-<a href='https://github.com/nicholas-sc-08'>Link para o perfil</a>
+<a href='https://github.com/nicholas-sc-08'>Nicholas</a>
 
 
 ## 🎨 Desenvolvimento
