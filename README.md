@@ -15,7 +15,7 @@
 
 <p>Aqui esta a nossa equipe, descrevendo um pouquinho sobre o que cada um exerceu neste projeto!</p>
 
-
+<img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Equipe_SA.png'/>
 
 ## 🎨 Desenvolvimento
 
