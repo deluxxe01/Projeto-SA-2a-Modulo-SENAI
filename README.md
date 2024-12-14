@@ -13,7 +13,7 @@
 
 ## <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Gif_Coroa.gif' width='25px' height='25px'/> Nossa Equipe 
 
-<p>Aqui esta a nossa equipe, caso você queira acessar o GitHub de alguns dos membros deste projeto deixarei o link logo abaixo! E irei colocar meu link de perfil também 😋</p>
+<p>Aqui esta a nossa equipe, caso você queira acessar o GitHub de alguns dos membros deste projeto, pesquise os nomes no github que estão logo abaixo! 😋</p>
 
 <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Equipe_SA.png'/>
 
