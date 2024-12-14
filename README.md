@@ -17,7 +17,10 @@
 
 <div>
   <img src="https://avatars.githubusercontent.com/u/153335120?v=4" alt="Avatar de Nicholas" width='100px' height='100px'/>
-  <a href="https://github.com/nicholas-sc-08">Nicholas</a>
+  <div>
+    <p>Nicholas Serencovich Carvalho</p>
+    <a href="https://github.com/nicholas-sc-08">Acessar GitHub</a>
+  </div>
 </div>
 
 
