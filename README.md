@@ -24,3 +24,7 @@
 <p>Criamos um slide no Canva para explicar de uma forma geral, nossos objetivos, público alvo e também a marca em si. Caso deseja visualizar o nosso slide, clique no link abaixo!</p>
 
 <a href='https://www.canva.com/design/DAGYQwcE80E/F1Kz9ie8plXei4bH6ZJQZg/edit?utm_content=DAGYQwcE80E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'>Acesse os Slides</a>🖼
+
+<p>Aqui estão alguns imagens dos slides!</p>
+
+
