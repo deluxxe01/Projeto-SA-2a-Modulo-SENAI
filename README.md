@@ -44,3 +44,5 @@
 <p>Inicialmente, irei começar explicando a composição da logo. A 3º ilustração, é uma representaçãode uma pilula, simbolizando o medicamento, vinculando a medicina tradicional a marca! E na segunda ilustração conseguimos ver um sinal de "+", representando a saúde! E por fim se virarmos um pouquinho o sinal de "+" e colocarmos uma bolinha em cima, sera neste caso uma representação do humano, incluindo toodos os profissionais e também pacientes da plataforma/sociedade no geral.</p>
 
 <p>Indo para a mascote, mas por que a final uma coruja? Bom as corujas elas representam um sinal de sabedoria e inteligência, e por fim liberdade!</p>
+
+<img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Slide_Quatro.png'/>
