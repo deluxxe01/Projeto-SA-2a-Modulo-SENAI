@@ -11,7 +11,7 @@
 
 <p>Seja bem vindo a este repositório! Neste projeto desenvolvemos um site de agendamentos, com o intuito de facilitar o acesso as consultas para tratamento de câncer!</p>
 
-# 👑 Nossa Equipe 
+## 👑 Nossa Equipe 
 
 <p>Aqui esta a nossa equipe, descrevendo um pouquinho sobre o que cada um exerceu neste projeto!</p>
 
