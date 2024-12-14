@@ -1,0 +1,90 @@
+:root{
+    
+    --cor_um: #437118 ;
+    --cor_dois: #AFD06E ;
+    --cor_tres: #F5F5F5;
+    --cor_quatro: #9fbacf;
+    --cor_cinco: #1D2A62;
+    --cor_seis: #F1F1F1;
+    --cor_sete: #335513;
+    --cor_oito: #87AECE;
+    --cor_nove: #819b4f;
+    --cor_dez: #303c70;
+
+    --tipografia_primaria: 'Nunito', sans-serif;
+    --tipografia_secundaria: 'Poppins', sans-serif;
+}
+
+.Pop_up_de_boas_vindas_container{
+    display: flex;
+    position: fixed;
+    left: 30vw;
+    width: 35vw;
+    height: 19vh;
+    border: var(--cor_nove) solid 2vw;
+    border-radius: 2vw;
+    background-color: var(--cor_nove);
+    top: 8vw;
+}
+
+.Pop_up_de_boas_vindas_container_alinhamento_conteudo{
+
+    display: flex;
+    justify-content: space-between;
+    /* width: 40vw;
+    height: 15vh; */
+}
+
+.Pop_up_de_boas_vindas_container h1{
+
+    color: var(--cor_seis);
+    margin-top: 0px;
+    margin-left: 1vw;
+    margin-top: 2vh;
+    font-size: 2vw;
+    font-family: var(--tipografia_primaria);
+    font-weight: bolder;
+}
+
+/* .Pop_up_de_boas_vindas_container_alinhamento_conteudo p{
+
+    margin-top: 0px;
+    margin-left: 1vw;
+
+    font-size: 2vw;
+} */
+
+.Pop_up_de_boas_vindas_container button{
+
+    border: 0px;
+    cursor: pointer;
+    margin-left: 1.3vw;
+    font-family: var(--tipografia_primaria);
+    font-size: 1.5vw;
+    font-weight: bolder;
+    color: var(--cor_seis);
+    background-color: transparent;
+    margin-top: -8vw;
+}
+
+.imagem_jade_boas-vindas{
+
+    width: 10.9vw;
+    height: 8.6vw;
+  
+    margin-top: 0vw;
+    margin-right: 0.5vw;
+margin-left: 2vw;
+
+}
+
+.nome-pessoa-boasvindas{
+    color: var(--cor_seis);
+    margin-top: -1vw;
+    margin-left: 2vw;
+
+    white-space: normal;    /* Permite quebra de linha */
+    word-wrap: break-word;  /* Quebra palavras longas para ajustar ao espaço */
+    overflow-wrap: break-word; /* Compatível com navegadores modernos */
+    max-width: 25vw;
+}

@@ -1,0 +1,226 @@
+.Container-SobreNos {
+    margin-left: 10%;
+    margin-top: 5vw;
+    width: 80%;
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    color: #1D2A62;
+    font-size: 2.5vw;
+}
+
+.Linha-Dois {
+    background-color: #87AECE;
+    border-radius: 10vw;
+    height: 0.7vw;
+    width: 5vw;
+    margin-top: -1.5vw;
+}
+
+.Linha-Dois:hover {
+    width: 10vw;
+    transition: 0.4s;
+}
+
+.Linha-Dois:not(:hover) {
+    width: 5vw;
+    transition: 0.4s;
+}
+
+.Img-NossaEquipe {
+    margin-top: 5vw;
+
+}
+
+.imagemGrupo {
+    border-radius: 3vw;
+    width: 79vw;
+    height: auto;
+}
+
+.Paragrafo-Um {
+    margin-top: 10vw;
+}
+
+.FonteSobreNos {
+    margin-left: 59vw;
+    width: 15vw;
+}
+
+.Linha {
+    background-color: #AFD06E;
+    border-radius: 10vw;
+    height: 0.7vw;
+    width: 6vw;
+    margin-left: 67.6vw;
+    margin-top: -1.7vw;
+}
+
+.Paragrafo-Um-Texto {
+    margin-left: 24vw;
+    width: 50vw;
+    text-align: right;
+    margin-top: 4vw;  
+}
+
+p {
+    color: #2F2E43;
+    font-family: "Poppins", sans-serif;
+    font-size: 2vw;
+}
+
+.pessoasBalao {
+    position: absolute;
+    margin-top: -26vw;
+    margin-left: -10vw;
+    height: auto;
+}
+
+.pessoasBalao:hover{
+    width: 33vw;
+    transition: 0.4s;
+}
+
+.pessoasBalao:not(:hover){
+    width: 30vw;
+    transition: 0.4s;
+}
+
+.Paragrafo-Dois {
+    margin-top: 11vw;
+}
+
+.Paragrafo-Tres {
+    margin-top: 6vw;
+}
+
+.FonteCompromissos {
+    margin-left: 59vw;
+}
+
+.Linha-compromissos{
+    background-color: #AFD06E;
+    border-radius: 10vw;
+    height: 0.7vw;
+    width: 6vw;
+    margin-left: 73.5vw;
+    margin-top: -1.7vw;
+}
+
+.Alinhamento-Containers {
+    /* border:1px solid rgb(255, 96, 176);  */
+    display: flex;
+    justify-content: space-between
+}
+
+.Container-Acessibilidade {
+    margin-top: 4vw;
+    /* border:1px solid rgb(163, 73, 118);  */
+    background-color: #C0CFA4;
+    width: 37vw;
+    border-radius: 4vw;
+}
+
+.FonteAcessibilidade {
+    margin-top: 4vw;
+    margin-left: 4vw;
+    color: #304A18;
+    font-family: "Nunitos", ;
+    font-size: 2.5vw;
+}
+
+.Paragrafo-Acessibilidade {
+    color: #304A18;
+    margin-left: 4vw;
+    font-size: 1.8vw;
+    margin-bottom: 4vw;
+    margin-right: 4vw;
+}
+
+.Container-EducacaoContinuada {
+    margin-top: 4vw;
+    background-color: #87AECE;
+    width: 37vw;
+    border-radius: 4vw;
+}
+
+.FonteEducacaoContinuada {
+    margin-top: 4vw;
+    margin-left: 4vw;
+    color: #1D2A62;
+    font-family: "Nunitos", ;
+    font-size: 2.5vw;
+}
+
+.Paragrafo-EducacaoContinuada {
+    color: #1D2A62;
+    margin-left: 4vw;
+    font-size: 1.8vw;
+    margin-bottom: 4vw;
+    margin-right: 4vw;
+}
+
+.Alinhamento-ContainersDois {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vw;
+}
+
+.Container-EticaTransparencia {
+    margin-top: 4vw;
+    /* border:1px solid rgb(163, 73, 118);  */
+    background-color: #67874A;
+    width: 37vw;
+    border-radius: 4vw;
+}
+
+.FonteEticaTransparencia {
+    margin-top: 4vw;
+    margin-left: 4vw;
+    color: #E9FEBE;
+    font-family: "Nunitos", ;
+    font-size: 2.5vw;
+}
+
+.Paragrafo-EticaTransparencia {
+    color: #E9FEBE;
+    margin-left: 4vw;
+    font-size: 1.8vw;
+    margin-bottom: 4vw;
+    margin-right: 4vw;
+}
+
+.Container-Comunidade {
+    margin-top: 4vw;
+    /* border:1px solid rgb(163, 73, 118);  */
+    background-color: #D9DFE2;
+    width: 37vw;
+    border-radius: 4vw;
+}
+
+.FonteComunidade {
+    margin-top: 4vw;
+    margin-left: 4vw;
+    color: #496664;
+    font-family: "Nunitos", ;
+    font-size: 2.5vw;
+}
+
+.Paragrafo-Comunidade {
+    color: #496664;
+    margin-left: 4vw;
+    font-size: 1.8vw;
+    margin-bottom: 4vw;
+    margin-right: 4vw;
+}
+
+.linha-Dois:hover {
+    transition: 0.4s;
+    width: 400vw;
+}
+
+.linha-Dois:not(:hover) {
+    width: 25vw;
+    transition: 0.4s;
+}

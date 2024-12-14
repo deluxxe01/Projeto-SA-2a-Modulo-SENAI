@@ -1,0 +1,223 @@
+:root{
+    
+    --cor_um: #437118 ;
+    --cor_dois: #AFD06E ;
+    --cor_tres: #F5F5F5;
+    --cor_quatro: #9fbacf;
+    --cor_cinco: #1D2A62;
+    --cor_seis: #F1F1F1;
+    --cor_sete: #335513;
+    --cor_oito: #87AECE;
+    --cor_nove: #819b4f;
+    --cor_dez: #303c70;
+    --cor_doze: #93a76c;
+    --cor_treze: #b9d287;
+
+    --tipografia_primaria: 'Nunito', sans-serif;
+    --tipografia_secundaria: 'Poppins', sans-serif;
+}
+
+/* Container do Pop Up */
+
+.container_pop_up{
+
+    position: absolute;
+    position: fixed;
+    left: 19vw;
+    top: 8vh;
+}
+
+/* Ajuste de posição do Pop up na tela */
+
+.alinhamento_de_conteudo_pop_up{
+
+    display: flex;
+    justify-content: center;
+
+    width: 60vw;
+    height: 85vh;
+
+}
+
+/* Tamanho das Imagens do Pop Up */
+
+.container_pop_up button img{
+
+    width: 25vw;
+    height: 40vh;
+
+    cursor: pointer;
+}
+
+/* Efeito quando passar o mouse no Pop Up */
+
+.container_pop_up img:hover{
+
+    width: 27vw;
+    height: 45vh;
+
+    transition: 0.5s;
+}
+
+.container_pop_up img:not(:hover){
+    
+    width: 25vw;
+    height: 40vh;
+    
+    transition: 0.5s;
+}
+
+/* Tamanho dos botões no Pop Up */
+
+.container_pop_up button{
+
+    width: 30vw;
+    height: 60vh;
+
+    border: 0px;
+
+    background-color: transparent;
+}
+
+/* Lado Esquerdo do Pop Up */
+
+.coluna_paciente{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-top-left-radius: 4vw;
+    border-bottom-left-radius: 4vw;
+
+    background-color: var(--cor_treze);
+
+    color: var(--cor_cinco);
+}
+
+/* Efeito de Quando Passar o Mouse no Pop Up Lado Esquerdo */
+
+.coluna_paciente:hover{
+
+    transition: 0.6s;
+
+    background-color: var(--cor_doze);
+
+    color: var(--cor_tres);
+}
+
+.coluna_paciente:hover + .coluna_paciente img{
+
+    transition: 0.5s;
+}
+
+/* Titulo do Pop Up Lado Esquerdo */
+
+.coluna_paciente h4{
+
+    width: 20vw;
+
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+    font-family: var(--tipografia_primaria);
+    font-weight: bold;
+    font-size: 1.5vw;
+
+    text-align: center;
+
+}
+
+/* Frase CTA do Pop Up Lado Esquerdo */
+
+.coluna_paciente p{
+
+    width: 15vw;
+
+    font-family: var(--tipografia_secundaria);
+    font-weight: 400;
+    font-size: 0.9vw;
+
+    text-align: center;
+
+}
+
+/* Lado Direito do Pop Up */
+
+.coluna_medico{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-top-right-radius: 4vw;
+    border-bottom-right-radius: 4vw;
+
+    background-color: var(--cor_treze);
+    color: var(--cor_cinco);
+}
+
+/* Efeito de Quando Passar o Mouse no Lado Direito do Pop Up */
+
+.coluna_medico:hover{
+
+    transition: 0.6s;
+
+    background-color: var(--cor_doze);
+    color: var(--cor_tres);
+}
+
+/* Titulo Lado Direito do Pop Up */
+
+.coluna_medico h4{
+
+    width: 20vw;
+
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+    font-family: var(--tipografia_primaria);
+    font-weight: bold;
+    font-size: 1.5vw;
+
+    text-align: center;
+
+}
+
+/* Parágrafo da frase CTA do Pop Up Lado Direito */
+
+.coluna_medico p{
+
+    width: 16vw;
+
+    font-family: var(--tipografia_secundaria);
+    font-weight: 400;
+    font-size: 0.9vw;
+
+    text-align: center;
+
+}
+
+.botao_de_fechar_pop_up_de_cadastro{
+
+    position: fixed;
+
+    top: 12vh;
+    left: 76vw;
+
+    width: 5vw;
+    height: 5vh;
+}
+
+.botao_de_fechar_pop_up_de_cadastro button{
+
+    width: 1vw;
+    height: 1vh;
+
+    cursor: pointer;
+}
+
+.botao_de_fechar_pop_up_de_cadastro button:hover{
+
+    color: var(--cor_seis);
+}

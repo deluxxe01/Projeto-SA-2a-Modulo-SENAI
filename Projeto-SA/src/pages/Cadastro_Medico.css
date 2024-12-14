@@ -1,0 +1,918 @@
+:root{
+    
+    --cor_um: #437118 ;
+    --cor_dois: #AFD06E ;
+    --cor_tres: #F5F5F5;
+    --cor_quatro: #9fbacf;
+    --cor_cinco: #1D2A62;
+    --cor_seis: #F1F1F1;
+    --cor_sete: #335513;
+    --cor_oito: #87AECE;
+    --cor_nove: #819b4f;
+    --cor_dez: #303c70;
+
+    --tipografia_primaria: 'Nunito', sans-serif;
+    --tipografia_secundaria: 'Poppins', sans-serif;
+}
+
+body{
+
+    margin: 0px;
+}
+
+.dv_cadastro_medico{
+
+    display: flex;
+}
+
+/* Fundo Branco */
+
+.container_informacoes_medico{
+
+    background-color: var(--cor_tres);
+    width: 60%;
+}
+
+/* Fundo imagem */
+
+.container_img_medico{
+    
+    width: 40%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--cor_quatro);
+}
+
+.container_img_medico img{
+
+    width: 55vw;
+    height: 55vh;
+}
+
+.container_img_medico img:hover{
+
+    transition: 0.5s;
+
+    width: 55vw;
+    height: 55vh;
+}
+
+.container_img_medico img:not(:hover){
+
+    transition: 0.5s;
+
+    width: 50vw;
+    height: 50vh;
+}
+
+.titulo_medico{
+
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 2vh;
+}
+
+/* Logo SA   */
+
+.titulo_medico_logo{
+
+    width: 8vw;
+    height: 8vh;
+
+    margin-left: 4vw;
+}
+
+.titulo_medico_logo img{
+
+    width: 6vw;
+    height: 10vw;
+    margin-top: 6vh;
+}
+
+.titulo_medico_logo img:hover{
+
+    transition: 0.3s;
+
+    width: 8vw;
+    height: 12vh;
+}
+
+.titulo_medico_logo img:not(:hover){
+
+    transition: 0.3s;
+
+    width: 6vw;
+    height: 10vh;
+}
+
+/* Linha verde */
+
+.faixa_verde_medico{
+    
+    position: absolute;
+    width: 3.5vw;
+    height: 1vh;
+    left: 46.5vw;
+    top: 11vh;
+    margin-top: 3vh;
+    
+    background-color: var(--cor_dois);
+    border-radius: 2vw;
+}
+
+/* CADASTRO - medico */
+
+.titulo_medico h2{
+    
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2vw;
+
+    margin-top: 6vh;
+    margin-right: 3vw;
+    
+    color: var(--cor_cinco);
+}
+
+.posicao_inputs_medico{
+
+    display: flex;
+    
+    margin-top: 1vh;
+}
+
+.coluna_de_inputs_um_medico{
+
+    height: 50vh;
+    width: 30vw;
+
+    margin-left: 6vw;
+}
+
+.coluna_de_inputs_dois_medico{
+
+    height: 20vh;
+    width: 80vw;
+
+    margin-left: 5vw;
+}
+
+/* Nome Input */
+
+.input_nome_medico {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.input_nome_medico input{
+     
+    box-sizing: border-box;
+    
+    width: 13.5vw;
+    height: 5.5vh;
+    padding-left: 0.5vw;
+    
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+
+    background: var(--cor_tres);
+    border: 0.1vw solid var(--cor_cinco);
+    border-radius: 1vh;
+
+    color: var(--cor_cinco);
+}
+
+/* Nome Label */
+
+.input_nome_medico label{
+    
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 2vw;
+
+    margin-bottom: 0%;
+    margin-top: 5vh;
+    
+    color: var(--cor_um);
+}
+
+/* CPF Input*/
+
+.input_cpf_medico {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input_cpf_medico input{
+     
+    box-sizing: border-box;
+    
+    width: 13.5vw;
+    height: 5.5vh;
+    padding-left: 0.5vw;
+    
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+
+    background: var(--cor_tres);
+    border: 0.1vw solid var(--cor_cinco);
+    border-radius: 1vh;
+
+    color: var(--cor_cinco);
+}
+
+/* CPF Label */
+
+.input_cpf_medico label{
+    
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 2vw;
+
+    margin-bottom: 0%;
+    margin-top: 2vh;
+    
+    color: var(--cor_um);
+}
+
+/* Gênero Input*/
+
+.input_genero_medico {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input_genero_medico_alinhar_radios{
+
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 1vh;
+    margin-left: -0.4vw;
+}
+
+.input_genero_medico input {
+
+    box-sizing: border-box;
+
+    width: 2vw;
+    height: 2.5vh;
+    padding-left: 0.5vw;
+
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+
+    border: 1vw solid var(--cor_cinco);
+    border-radius: 1vh;
+
+    accent-color: var(--cor_cinco);
+}
+
+.input_genero_medico_alinhar_radios_masculino{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.input_genero_medico_alinhar_radios_masculino input{
+    
+    margin: 0px;
+    margin-right: 0.5vw;
+
+    width: 1.5vw;
+}
+
+.input_genero_medico_alinhar_radios_feminino{
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.input_genero_medico_alinhar_radios_feminino input{
+
+    margin: 0px;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+
+    width: 1.5vw;
+}
+
+.input_genero_medico_alinhar_label{
+
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 2vw;
+
+    margin-bottom: 0%;
+    margin-top: 0vh;
+    margin-left: 0vw;
+
+    color: var(--cor_cinco);
+}
+
+/* Genero Label */
+
+.titulo_label_inpt {
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 2vw;
+
+    margin-bottom: 0%;
+    margin-top: 2vh;
+
+    color: var(--cor_um);
+}
+
+/* Senha Input*/
+
+.input_senha_medico {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input_senha_medico input{
+     
+    box-sizing: border-box;
+    
+    width: 13.5vw;
+    height: 5.5vh;
+    padding-left: 0.5vw;
+    
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+
+    background: var(--cor_tres);
+    border: 0.1vw solid var(--cor_cinco);
+    border-radius: 1vh;
+
+    color: var(--cor_cinco);
+}
+
+/* Senha Label */
+
+.input_senha_medico label{
+    
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 2vw;
+
+    margin-bottom: 0%;
+    margin-top: 2.4vh;
+    
+    color: var(--cor_um);
+}
+
+/* Confirmar Senha Botão */
+
+.input_senha_medico img{
+
+    width: 2.0vw;
+    height: 4vh;
+
+    position: absolute;
+
+    top: 63.5vh;
+    bottom: 0vw;
+    right: 0vw;
+    left: 57vw;
+}
+
+.input_senha_medico_dv{
+    
+    display: flex;
+
+    height: 5vh;
+    width: 14.5vw;
+}
+
+.input_senha_medico button{
+
+    margin-left: -3vw;
+    margin-bottom: -0.5vw;
+
+    cursor: pointer;
+
+    border: 0px;
+    background-color: transparent;
+}
+
+/* CEP Input*/
+
+.input_crm_medico {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input_crm_medico input{
+     
+    box-sizing: border-box;
+    
+    width: 14.5vw;
+    height: 5.5vh;
+    padding-left: 0.5vw;
+    
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+
+    background: var(--cor_tres);
+    border: 0.1vw solid var(--cor_cinco);
+    border-radius: 1vh;
+
+    color: var(--cor_cinco);
+}
+
+/* crm Label */
+
+.input_crm_medico label{
+    
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 2vw;
+
+    margin-bottom: 0%;
+    margin-top: 5vh;
+    
+    color: var(--cor_um);
+}
+
+/* Email Input*/
+
+.input_email_medico {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input_email_medico input{
+     
+    box-sizing: border-box;
+    
+    width: 14.5vw;
+    height: 5.5vh;
+    padding-left: 0.5vw;
+    
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+
+    background: var(--cor_tres);
+    border: 0.1vw solid var(--cor_cinco);
+    border-radius: 1vh;
+
+    color: var(--cor_cinco);
+}
+
+/* Email Label */
+
+.input_email_medico label{
+    
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 2vw;
+
+    margin-bottom: 0%;
+    margin-top: 2vh;
+    
+    color: var(--cor_um);
+}
+
+/* Data de Nascimento Input*/
+
+.input_data_de_nascimento_medico {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input_data_de_nascimento_medico input{
+     
+    box-sizing: border-box;
+    
+    width: 14.5vw;
+    height: 5.5vh;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+
+    background: var(--cor_tres);
+    border: 0.1vw solid var(--cor_cinco);
+    border-radius: 1vh;
+
+    color: var(--cor_cinco);
+}
+
+.input_data_de_nascimento_medico input[type='date'] ::-webkit-calendar-picker-indicator {
+
+    filter: invert(0.8) brightness(50%) sepia(100%) saturate(10000%) hue-rotate(240deg);
+}
+
+/* Data de Nascimento Label */
+
+.input_data_de_nascimento_medico label{
+    
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 2vw;
+
+    margin-bottom: 0%;
+    margin-top: 2vh;
+    
+    color: var(--cor_um);
+}
+
+/* Confirmar Senha Input*/
+
+.input_confirmar_senha_medico {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input_confirmar_senha_medico input{
+     
+    box-sizing: border-box;
+    
+    width: 14.5vw;
+    height: 5.5vh;
+    padding-left: 0.5vw;
+    
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+
+    background: var(--cor_tres);
+    border: 0.1vw solid var(--cor_cinco);
+    border-radius: 1vh;
+
+    color: var(--cor_cinco);
+}
+
+/* Senha Label */
+
+.input_confirmar_senha_medico label{
+    
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 2vw;
+
+    margin-bottom: 0%;
+    margin-top: 2vh;
+    
+    color: var(--cor_um);
+}
+
+/* Confirmar Senha Botão */
+
+.input_confirmar_senha_medico_dv img{
+
+    margin-bottom: -0.8vh;
+
+    width: 2.0vw;
+    height: 4vh;
+
+    position: absolute;
+    
+    top: 63.5vh;
+    bottom: 0vw;
+    right: 0vw;
+    left: 77.5vw;
+}
+
+.input_confirmar_senha_medico_dv{
+    
+    display: flex;
+
+    height: 5vh;
+    width: 13.5vw;
+}
+
+.input_confirmar_senha_medico button{
+
+    margin-left: -2.8vw;
+    margin-top: -0.1vh;
+
+    padding: 0px;
+
+    cursor: pointer;
+
+    border: 0px;
+    background-color: transparent;
+}
+/* Mudar cor do Input após o clique */
+
+.input_nome_medico input:focus{
+
+    border: 0.1vw solid var(--cor_quatro);
+    outline: none;
+}
+
+.input_email_medico input:focus{
+
+    border: 0.1vw solid var(--cor_quatro);
+    outline: none;
+}
+
+.input_genero_medico input:focus{
+
+    border: 0.1vw solid var(--cor_quatro);
+    outline: none;
+}
+
+.input_genero_medico input:focus{
+
+    border: 0.1vw solid var(--cor_quatro);
+    outline: none;
+}
+
+.input_data_de_nascimento_medico input:focus{
+
+    border: 0.1vw solid var(--cor_quatro);
+    outline: none;
+}
+
+.input_cep_medico input:focus{
+
+    border: 0.1vw solid var(--cor_quatro);
+    outline: none;
+}
+
+.input_cpf_medico input:focus{
+
+    border: 0.1vw solid var(--cor_quatro);
+    outline: none;
+}
+
+.input_confirmar_senha_medico input:focus{
+
+    border: 0.1vw solid var(--cor_quatro);
+    outline: none;
+}
+
+.input_senha_medico input:focus{
+
+    border: 0.1vw solid var(--cor_quatro);
+    outline: none;
+}
+
+/* Caminho para Termos de Uso & Política de Privacidade */
+
+.caminho_para_termos_e_politica_medico{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9vw;
+    
+    margin-left: 6vw;
+    margin-top: 3vw;
+
+    color: var(--cor_quatro);
+}
+
+#checkbox_cadastro_medico{
+
+    width: 1vw;
+    height: 1vw;
+
+    border: 1vw solid var(--cor_um);
+    border-radius: 2vw;
+
+    margin: 0vw;
+    margin-left: 0.3vw;
+
+    accent-color: var(--cor_um);
+
+    background-color: var(--cor_tres);
+}
+
+/* Link de Termos de Uso */
+
+.hyperlink_termos_de_uso {
+    text-decoration: none;
+
+    font-weight: 700;
+    color: var(--cor_cinco);
+}
+
+.hyperlink_termos_de_uso:hover{
+
+    text-decoration: underline;
+}
+
+/* Link de Política de Privacidade */
+
+.hyperlink_politica_de_privacidade {
+
+    text-decoration: none;
+
+    font-weight: 700;
+    color: var(--cor_cinco);
+}
+
+.hyperlink_politica_de_privacidade:hover{
+
+    text-decoration: underline;
+}
+
+.alinhamento_botao_cadastrar_medico{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.error_medico{
+
+    margin-top: 5vh;
+    margin-left: 1vw;
+
+    font-family: var(--tipografia_primaria);
+    font-weight: bold;
+
+    color: red;
+}
+
+/* Botão */
+
+.botao_cadastrar_medico {
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+
+    height: 6vh;
+    width: 12.5vw;
+
+    margin-left: 6vw;
+
+    margin-top: 5vh;
+
+    border: 0.1vw solid var(--cor_cinco);
+    border-radius: 0.8vw;
+
+    cursor: pointer;
+
+    background-color: var(--cor_cinco);
+    color: var(--cor_tres);
+}
+
+.botao_cadastrar_medico:hover{
+
+    transition: 0.3s;
+
+    border: 0.1vw solid var(--cor_quatro);
+
+    background-color: var(--cor_quatro);
+    color: var(--cor_cinco);
+}
+
+.botao_cadastrar_medico:not(:hover){
+
+    transition: 0.3s
+    ;
+
+    border: 0.1vw solid var(--cor_cinco);
+
+    background-color: var(--cor_cinco);
+    color: var(--cor_tres);
+}
+
+
+.caminho_para_termos_e_politica_medico{
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    margin-left: 6vw;
+
+    width: 34vw;
+    height: 2vh;
+}
+
+.caminho_para_termos_e_politica_medico label{
+
+    margin-left: 1%;
+
+    width: 35vw;
+}
+
+.politica_de_privacidade_medico{
+
+    font-family: var(--tipografia_primaria);
+    font-weight: 800;
+
+    text-decoration: none;
+
+    color: var(--cor_cinco);
+}
+
+.politica_de_privacidade_medico:hover{
+
+    text-decoration: underline;
+}
+
+.termos_de_uso_medico{
+
+    font-family: var(--tipografia_primaria);
+    font-weight: 800;
+
+    text-decoration: none;
+
+    color: var(--cor_cinco);
+}
+
+.termos_de_uso_medico:hover{
+
+    text-decoration: underline;
+}
+
+/* Já possui uma conta? Log-In */
+
+.possui_conta_medico{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+
+
+    margin-left: 6vw;
+    margin-top: 3vh;
+
+    color: var(--cor_um);
+}
+
+.hyperlink_login_medico{
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1vw;
+
+    color: var(--cor_cinco);
+}
+
+.possui_conta_medico p{
+
+    font-size: 1vw;
+
+    margin-top: -1px;
+    margin-bottom: 0px;
+    
+    color: var(--cor_sete);
+}
+
+.possui_conta_medico a:hover{
+
+    text-decoration: underline;
+}
+
+.error_massege_medico{
+
+    margin-left: 2vw;
+    margin-bottom: 0.7vw;
+
+    font-family: var(--tipografia_primaria);
+    font-weight: bold;
+    font-size: 1vw;
+
+    color: #ef2828;
+}

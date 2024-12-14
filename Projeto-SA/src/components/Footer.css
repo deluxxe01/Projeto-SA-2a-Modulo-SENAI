@@ -1,0 +1,353 @@
+:root {
+
+    --cor_um: #437118;
+    --cor_dois: #AFD06E;
+    --cor_tres: #F5F5F5;
+    --cor_quatro: #87AECE;
+    --cor_cinco: #1D2A62;
+    --cor_seis: #F1F1F1;
+}
+
+.footer-container{
+    background-color: var(--cor_cinco);
+    margin-top: 8%;
+    height: fit-content;
+    width: 100%;
+}
+
+/* ESTILOS */
+.estilo-titulos{
+    font-family: 'Nunito', sans-serif;
+    color: var(--cor_tres);
+    font-size: 220%;
+}
+
+.line-footer{
+    width: 3.4375vw;
+    height: 1vh;
+    background-color: var(--cor_dois);
+    border-radius: 2vw;
+    margin-top: -15px;
+}
+
+.line-footer:hover{
+    width: 4.6875vw;
+    transition: 0.5s;
+}
+
+.line-footer:not(:hover){
+    width: 3.4375vw;
+    transition: 0.5s;
+}
+
+.estilo-texto-branco{
+    color: var(--cor_tres);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+}
+
+.container-dois-alinhamento li{
+    color: var(--cor_tres);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+}
+
+.container-dois-alinhamento li:hover{
+    color: var(--cor_quatro);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container-dois-alinhamento li :not(:hover){
+    color: var(--cor_tres);
+    transition: 0.5s
+}
+
+.estilo-texto-azul-link{
+    color: var(--cor_quatro);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+
+.estilo-texto-azul-link:hover{
+    color: var(--cor_seis);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.estilo-texto-azul-link:not(:hover){
+    color: var(--cor_quatro);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.estilo-texto-azul{
+    color: var(--cor_quatro);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vw;
+}
+
+.estilo-texto-link{
+    text-decoration: none;
+    color: var(--cor_tres);
+    font-family: 'Poppins', sans-serif;
+}
+
+.estilo-texto-link:hover{
+    color: var(--cor_quatro);
+    transition: 0.5s;
+}
+
+/* ESTILOS */
+
+.alinhamento-containers{
+    display: flex;
+    width: 160%;
+    height: 60vh;
+    height: fit-content;
+    margin-top: -28%;
+    margin-left: 11%;
+    width: 65vw;
+}
+
+/* Container um (Contatos) ALINHAMENTO*/
+.container-um-alinhamento{
+    width: fit-content;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.Logo{
+    margin-bottom: -3.23vh;
+    margin-left: -2.5vw;
+    width: 20vw;
+    margin-top: 9vh;
+    height: fit-content;
+}
+
+.alinhamentoLogo-mascote{
+    display: flex;
+    justify-content: space-between;
+    width: 90.5%;
+    margin-left: 9%;
+    margin-bottom: -1vh;
+}
+
+.container-um-alinhamento a{
+    
+    margin: 0.8vw;
+}
+
+.whatsapp_icon img{
+
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.gmail_icon img{
+
+    width: 2.9vw;
+    height: 3vw;
+    margin-bottom: -5px;
+}
+
+.whatsapp_icon{
+
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.instagram_icon img{
+
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.alinhamento_titulo_whatsapp h1{
+
+    font-size: 2vw;
+
+    width: 10vw;
+
+    margin-bottom: 0.5vw;
+}
+
+.line-footer-whatsapp{
+
+    width: 3.75vw;
+    height: 0.5vw;
+
+    border-radius: 2vw;
+
+    background-color: var(--cor_dois);
+}
+
+.container-um-alinhamento-contatos{
+
+    width: 13.75vw;
+    height: 5vh;
+
+    margin-top: 2.5vw;
+}
+
+.container-um-alinhamento-contatos h1{
+
+    font-size: 2vw;
+
+    margin-bottom: 0.5vh;
+}
+
+.line-footer-contatos{
+
+    transition: 0.3s;
+
+    width: 3.75vw;
+    height: 0.5vw;
+
+    border-radius: 2vw;
+
+    background-color: var(--cor_dois);
+}
+
+.container-um-alinhamento-contatos h1:hover + .line-footer-contatos{
+
+    transition: 0.3s;
+
+    width: 6.25vw;
+}
+
+.alinhamento_titulo_whatsapp h1:hover + .line-footer-whatsapp{
+
+    transition: 0.3s;
+
+    width: 7.5vw;
+}
+
+.alinhamento_titulo_whatsapp h1:not(:hover) + .line-footer-whatsapp{
+
+    transition: 0.3s;
+
+    width: 3.75vw;
+}
+
+/* Container um (Contatos) ALINHAMENTO*/
+
+/* Container Dois (Menú) ALINHAMENTO*/
+.container-dois-alinhamento{
+
+    width: 20vw;
+    height: 60vh;
+
+    margin-left: 8vw;
+    margin-top: 3%;
+}
+
+.line-footer-coluna-dois{
+
+    width: 3.75vw;
+    height: 0.5vw;
+
+    border-radius: 2vw;
+
+    background-color: var(--cor_dois);
+}
+
+.alinhamento_titulo_coluna_dois h1{
+
+    font-size: 2vw;
+
+    margin-bottom: 0.5vh;
+}
+
+.alinhamento_titulo_coluna_dois h1:hover + .line-footer-coluna-dois{
+
+    transition: 0.3s;
+
+    width: 7.5vw;
+}
+
+.alinhamento_titulo_coluna_dois h1:not(:hover) + .line-footer-coluna-dois{
+
+    transition: 0.3s;
+
+    width: 3.75vw;
+}
+
+.alinhamento_titulo_coluna_tres h1{
+
+    font-size: 2vw;
+
+    margin-bottom: 0.5vh;
+}
+
+.alinhamento_titulo_coluna_tres h1:hover + .line-footer-coluna-tres{
+
+    transition: 0.3s;
+
+    width: 7.5vw;
+}
+
+.alinhamento_titulo_coluna_tres h1:not(:hover) + .line-footer-coluna-tres{
+
+    transition: 0.3s;
+
+    width: 3.75vw;
+}
+
+.line-footer-coluna-tres{
+
+    width: 3.75vw;
+    height: 0.5vw;
+
+    border-radius: 2vw;
+
+    background-color: var(--cor_dois);
+}
+
+.container-dois-alinhamento p{
+
+    font-size: 1.8vw;
+
+    margin-bottom: -2.5vw;
+    margin-top: 8%;
+}
+
+.container-dois-alinhamento ul{
+    
+    font-size: 1vw;
+
+    padding-left: 1.5vw;
+
+    margin-top: 1.23vw;
+    margin-bottom: 1vw;
+}
+/* Container Dois (Menú) ALINHAMENTO*/
+
+/* Container Tres (Endereço) ALINHAMENTO*/
+.container-tres-alinhamento{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 5vw;
+
+    margin-top: 3%;
+}
+
+.estilo-texto-azul{
+    margin-top: 13%;
+}
+/* Container Tres (Endereço) ALINHAMENTO*/
+
+/* Mascote alinhamento */
+.mascote{
+    width: fit-content;
+    height: fit-content;
+    margin-top: -8vw;
+    position: relative;
+    width: 31.25vw;
+}
+/* Mascote alinhamento */
+
+.gmail-img{
+    width: 2vw;
+}

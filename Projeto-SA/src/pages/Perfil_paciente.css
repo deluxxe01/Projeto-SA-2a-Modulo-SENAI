@@ -1,0 +1,223 @@
+:root {
+    --azul_escuro: #1D2A62;
+    --azul_claro: #87AECE;
+    --quase_branco: #fdfdfd;
+    --verde_meio_termo: #437118;
+    --verde_claro: #AFD06E;
+    --azul_meio_termo: #3b4fa7;
+    --branco_gelo: #F5F5F5;
+    --verde_escuro: #629136;
+    --verde_escurao: #2e500e;
+}
+
+.titulo-perfil {
+    width: fit-content;
+    margin-top: 4vw;
+    margin-left: 6vw;
+}
+
+.line-perfil {
+    width: 5vw;
+    height: 0.7vw;
+    background-color: var(--verde_claro);
+    border-radius: 2vw;
+    margin-top: -1.2vw;
+}
+
+.line-perfil:hover {
+    width: 9vw;
+    transition: 0.4s;
+}
+
+.line-perfil:not(:hover) {
+    width: 5vw;
+    transition: 0.4s;
+}
+
+.hamburger-alinhamento {
+    margin-top: -5.6vw;
+    margin-right: 3vw;
+}
+
+.alinhamento-containers-perfil {
+    display: flex;
+}
+
+.container-um-perfil {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12.6vw;
+    margin-top: 4vw;
+}
+
+.container-um-perfil img {
+    width: 15vw;
+    height: auto;
+}
+
+.buttons-alinhamento {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+}
+
+.button-editar-perfil {
+    border: none;
+    height: 2.5vw;
+    background-color: var(--verde_meio_termo);
+    color: var(--branco_gelo);
+    font-size: 1vw;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    border-radius: 0.6vw;
+    margin-bottom: 1.5vw;
+}
+
+.button-editar-perfil:hover {
+    cursor: pointer;
+    background-color: var(--verde_escuro);
+    color: var(--branco_gelo);
+    transition: 0.3s;
+}
+
+.button-editar-perfil:not(:hover) {
+    background-color: var(--verde_meio_termo);
+    color: var(--quase_branco);
+    transition: 0.3s;
+}
+
+.button-sair-perfil {
+    height: 2.5vw;
+    border: none;
+    background-color: var(--azul_escuro);
+    color: var(--branco_gelo);
+    font-size: 1vw;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    border-radius: 0.6vw;
+    margin-bottom: 1.5vw;
+}
+
+.button-sair-perfil:hover {
+    background-color: var(--azul_meio_termo);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button-sair-perfil:not(:hover) {
+    background-color: var(--azul_escuro);
+    transition: 0.3s;
+}
+
+.button-deletar-perfil {
+    height: 2.5vw;
+    border: none;
+    background-color: #ef2828;
+    color: var(--branco_gelo);
+    font-size: 1vw;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    border-radius: 0.6vw;
+    margin-bottom: 1.5vw;
+}
+
+.button-deletar-perfil:hover {
+    background-color: #cc2323;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-deletar-perfil:not(:hover) {
+    background-color: #ef2828;
+    transition: 0.3s;
+}
+
+.container-dois-perfil {
+    margin-top: 5vw;
+    margin-left: 6vw;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.container-dois-perfil label{
+    color: var(--verde_meio_termo);
+    font-size: 1.5vw;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0.2vw;
+}
+
+.container-dois-perfil input{
+    box-sizing: border-box;
+    
+    width: 24vw;
+    height: 6vh;
+    padding-left: 0.8vw;
+    margin-bottom: 1.5vw;
+    
+    font-size: 1vw;
+    font-family: var(--tipografia_secundaria);
+    
+    background: var(--cor_tres);
+    border: 0.1vw solid var(--cor_cinco);
+    border-radius: 0.8vw;
+    
+    color: var(--cor_cinco);
+}
+
+.container-dois-perfil select{
+    box-sizing: border-box;
+    
+    width: 24vw;
+    height: 6vh;
+    padding-left: 0.8vw;
+    
+    font-size: 1vw;
+    font-family: var(--tipografia_secundaria);
+    
+    background: var(--cor_tres);
+    border: 0.1vw solid var(--cor_cinco);
+    border-radius: 0.8vw;
+    
+    color: var(--cor_cinco);
+}
+
+.container-tres-perfil {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    margin-left: 6vw;
+}
+
+.container-tres-perfil label{
+    color: var(--verde_meio_termo);
+    font-size: 1.5vw;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0.2vw;
+}
+
+.container-tres-perfil input{
+    box-sizing: border-box;
+    
+    width: 24vw;
+    height: 6vh;
+    padding-left: 0.8vw;
+    margin-bottom: 1.5vw;
+    
+    font-size: 1vw;
+    font-family: var(--tipografia_secundaria);
+    
+    background: var(--cor_tres);
+    border: 0.1vw solid var(--cor_cinco);
+    border-radius: 0.8vw;
+    
+    color: var(--cor_cinco);
+}
+
+.mensagem-erro-perfil-paciente{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #ef2828;
+    width: fit-content;
+}

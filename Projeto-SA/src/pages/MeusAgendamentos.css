@@ -1,0 +1,39 @@
+:root {
+    --cor-1: #F1F1F1;
+    --cor-2: #437118;
+    --cor-3: #AFD06E;
+    --cor-4: #F5F5F5;
+    --cor-5: #87AECE;
+    --cor-6: #1D2A62;
+    --cor-7: #D9E3EB;
+}
+
+.container-conteudo-meusAgendamentos {
+    display: flex;
+}
+
+.alinhar-meusagendamentos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.alinhamento-texto-mascote-meusAgendamentos {
+    width: fit-content;
+}
+
+.alinhamento-texto-mascote-meusAgendamentos h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    margin-left: 12vw;
+    font-size: 2vw;
+    width: 30vw;
+}
+
+.alinhamento-texto-mascote-meusAgendamentos img {
+    width: 42vw;
+    height: fit-content;
+    margin-left: 4vw;
+    margin-top: -4vw;
+}

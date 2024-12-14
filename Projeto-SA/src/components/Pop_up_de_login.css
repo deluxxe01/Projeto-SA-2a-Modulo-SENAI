@@ -1,0 +1,85 @@
+:root{
+    
+    --cor_um: #437118 ;
+    --cor_dois: #AFD06E ;
+    --cor_tres: #F5F5F5;
+    --cor_quatro: #9fbacf;
+    --cor_cinco: #1D2A62;
+    --cor_seis: #F1F1F1;
+    --cor_sete: #335513;
+    --cor_oito: #87AECE;
+    --cor_nove: #819b4f;
+    --cor_dez: #303c70;
+
+    --tipografia_primaria: 'Nunito', sans-serif;
+    --tipografia_secundaria: 'Poppins', sans-serif;
+}
+
+.Pop_up_de_login_container{
+
+    display: flex;
+    position: fixed;
+    left: 30vw;
+    width: 35vw;
+    height: 21.5vh;
+    border: var(--cor_nove) solid 2vw;
+    border-radius: 2vw;
+    background-color: var(--cor_nove);
+}
+
+.Pop_up_de_login_container_alinhamento_conteudo{
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+/* .Pop_up_de_login_container h1{
+
+    width: 25vw;
+    margin-left: 1vw;
+    margin-bottom: 0px;
+} */
+
+/* .Pop_up_de_login_container_alinhamento_conteudo p{
+
+    margin-top: 0px;
+    margin-left: 1vw;
+    margin-top: 2vh;
+    font-size: 2vw;
+} */
+
+.Pop_up_de_login_container button{
+
+    border: 0px;
+    cursor: pointer;
+    margin-right: 0vw;
+    font-family: var(--tipografia_primaria);
+    font-size: 1.5vw;
+    font-weight: bolder;
+    color: var(--cor_seis);
+    background-color: transparent;
+    margin-top: -8vw;
+}
+.mensagem-login-popup{
+
+    color: var(--cor_seis);
+    margin-top: 0px;
+    margin-left: 1vw;
+    margin-top: 2vh;
+    font-size: 2vw;
+    font-family: var(--tipografia_primaria);
+    font-weight: bolder;
+}
+
+.imagem_jade_login{
+
+    width: 12vw;
+    height: 8.8vw;
+  
+    margin-top: 0.5vw;
+    margin-right: 0.5vw;
+
+
+
+}

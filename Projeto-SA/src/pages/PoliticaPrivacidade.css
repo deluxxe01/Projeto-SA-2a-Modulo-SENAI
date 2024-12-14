@@ -1,0 +1,69 @@
+.Texto-Um {
+    margin-top: 7vw;
+    width: 80vw;
+}
+
+.Texto-Dois {
+    margin-top: 7vw;
+    width: 80vw;
+}
+
+.Texto-Tres {
+    margin-top: 7vw;
+    width: 80vw;
+}
+
+.Texto-Quatro {
+    margin-top: 7vw;
+    width: 80vw;
+}
+
+.Texto-Cinco {
+    margin-top: 7vw;
+    width: 80vw;
+}
+
+.Texto-Seis {
+    margin-top: 7vw;
+    width: 80vw;
+}
+
+.Texto-Sete {
+    margin-top: 7vw;
+    width: 80vw;
+}
+
+.link-termosUso {
+    position: absolute;
+    width: 20vw;
+    height: 3vw;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.5vw;
+    color: #87AECE;
+    text-decoration: none;
+    margin-top: 1vw;
+}
+
+h2 {
+    font-size: 2.5vw;
+    color: #637D4A;
+    font-family: "Nunito", sans-serif;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    color: #1D2A62;
+    font-size: 1.8vw;
+}
+
+P.termos {
+    color: #87AECE;
+    font-size: 30px;
+}
+
+.Politica-Privacidade {
+    margin-left: 10%;
+    margin-top: 5vw;
+    /* border:1px solid black; */
+    width: 65%;
+}

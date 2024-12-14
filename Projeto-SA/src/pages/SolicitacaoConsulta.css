@@ -1,0 +1,222 @@
+:root {
+    --cor-1: #F1F1F1;
+    --cor-2: #437118;
+    --cor-3: #AFD06E;
+    --cor-4: #F5F5F5;
+    --cor-5: #87AECE;
+    --cor-6: #1D2A62;
+    --cor-7: #D9E3EB;
+}
+
+.titulo-solicitacao {
+    text-align: center;
+    color: var(--cor-6);
+    font-family: 'Nunito', sans-serif;
+    margin-top: -6vw;
+}
+
+.linha-solicitacao {
+    background-color: var(--cor-3);
+    width: 250px;
+    height: 6px;
+    margin-left: 41%;
+    border-radius: 15px;
+    margin-top: -15px;
+}
+
+.subtitulo-solicitacao p{
+    margin-left: 4%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2vw;
+    font-weight: 800;
+    margin-left: 170px;
+    color: #414a70;
+    margin-top: 5vw;
+    width: fit-content;
+}
+
+.consulta-solicitada {
+    background-color: #d8e0e9;
+    box-shadow: -6px -6px 10px rgba(230, 231, 233, 0.45), 6px 6px 10px rgba(21, 31, 48, 0.3);
+    padding: 2%;
+    width: 1100px;
+    border-radius: 15px;
+    margin-left: 11%;
+    margin-bottom: 55px;
+}
+
+.nome-pessoa-solicitacao {
+    color: var(--cor-6);
+    font-family: 'Nunito', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 1vw;
+}
+
+.data-horario-solicitacao {
+    color: var(--cor-6);
+    font-size: large;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5vw;
+}
+
+.horario-consulta-solicitacao {
+    background-color: var(--cor-4);
+    width: fit-content;
+    border-radius: 35px;
+    margin-top: -15px;
+    padding: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 9.7vw;
+    font-size: larger;
+}
+
+.alinhamento-solicitacao-nome-horario-tipo-data {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--cor-6);
+    font-family: 'Nunito', sans-serif;
+    margin-top: -10px;
+}
+
+.botoes-solicitacao {
+    display: flex;
+    flex-direction: row;
+    width: 370px;
+    justify-content: space-between;
+    height: 50px;
+    margin-bottom: -5px;
+
+}
+
+.botao-confirma-solicitacao {
+    font-size: larger;
+    color: var(--cor-4);
+    border-radius: 10px;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: var(--cor-2);
+    width: 180px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.botao-confirma-solicitacao:hover {
+    background-color: #335513;
+    transition: 0.4s;
+}
+
+.botao-confirma-solicitacao:not(:hover){
+    background-color: var(--cor-2);
+    transition: 0.4s;
+}
+
+.botao-cancela-solicitacao {
+    font-size: larger;
+    color: var(--cor-4);
+    border-radius: 10px;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 180px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: var(--cor-6);
+}
+
+.botao-cancela-solicitacao:hover {
+    background-color: #323D70;
+    transition: 0.4s;
+}
+
+.botao-cancela-solicitacao:not(:hover){
+    background-color: var(--cor-6);
+    transition: 0.4s;
+}
+
+.designar-botoes-solicitacao {
+
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 1100px;
+}
+
+.tipo-consulta-solicitacao {
+    margin-top: -12px;
+    color: var(--cor-2);
+    font-family: 'Nunito', sans-serif;
+    width: 760px;
+    font-size: 1.7vw;
+}
+
+.observacao-solicitacao-titulo {
+    font-family: 'Nunito', sans-serif;
+    color: var(--cor-6);
+    font-size: 1.3vw;
+    margin-top: -2vw;
+}
+
+.observacao-solicitacao-cliente {
+    font-family: 'Nunito', sans-serif;
+    color: var(--cor-2);
+    font-weight: 600;
+}
+
+.designar-profissional-titulo {
+    font-family: 'Nunito', sans-serif;
+    color: var(--cor-6);
+    margin-top: 28px;
+    margin-bottom: 0;
+    font-size: 1.3vw;
+    font-weight: 700;
+}
+
+.designar-profissional-input {
+    color: var(--cor-6);
+    width: 350px;
+    padding-left: 8px;
+    border-radius: 7px;
+    margin-top: 6px;
+    border: none;
+    /* border: 1px solid var(--cor-5); */
+    background-color: var(--cor-4);
+    /* appearance: none; */
+    font-size: small;
+    font-weight: bold;
+
+}
+
+.designar-profissional-input option {
+    background-color: #DEDEDE;
+    color: #437118;
+    border-radius: 10px;
+    font-size: small;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+.semSolicitacoes-texto{
+    width: fit-content;
+    font-size: 2vw;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-left: 11vw;
+    color: #323D70;
+}
+
+.data-solicitacao{
+    width: 15vw;
+}

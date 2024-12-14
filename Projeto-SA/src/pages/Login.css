@@ -1,0 +1,409 @@
+:root{
+    
+    --cor_um: #437118 ;
+    --cor_dois: #AFD06E ;
+    --cor_tres: #F5F5F5;
+    --cor_quatro: #9fbacf;
+    --cor_cinco: #1D2A62;
+    --cor_seis: #F1F1F1;
+    --cor_sete: #335513;
+    --cor_oito: #87AECE;
+    --cor_nove: #819b4f;
+    --cor_dez: #303c70;
+
+    --tipografia_primaria: 'Nunito', sans-serif;
+    --tipografia_secundaria: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+.dv_login{
+
+    display: flex;
+
+}
+
+.container_informacoes_login{
+    
+    width: 40vw;
+
+    padding-top: 5%;
+
+    background-color: var(--cor_tres);
+}
+
+/* Alinhamento do Titulo */
+
+.titulo_login{
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 45vw;
+    height: 6vh;
+    margin-top: 4vh;
+    margin-left: 7vw;
+}
+
+.titulo_login h2{
+
+    font-family: var(--tipografia_primaria);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+
+    margin-bottom: 2vh;
+
+    color: var(--cor_cinco);
+}
+
+/* Logo SA */
+
+.titulo_login img{
+
+    width: 6vw;
+    height: 10vh;
+}
+
+.titulo_login img:hover{
+    transition: 0.3s;
+    width: 8vw;
+    height: 12vh;
+}
+
+.titulo_login img:not(:hover){
+    transition: 0.3s;
+    width: 6vw;
+    height: 10vh;
+}
+
+.titulo_login h2:hover + .faixa_verde_login{
+
+    transition: 0.4s;
+
+    width: 6vw;
+}
+
+.titulo_login h2:not(:hover) + .faixa_verde_login{
+
+    transition: 0.4s;
+
+    width: 2.8vw;
+}
+
+/* Faixa verde LOGIN*/
+
+.faixa_verde_login{
+
+    width: 2.8vw;
+    height: 1vh;
+    margin-top: -20%;
+
+    background: #AFD06E;
+    border-radius: 2vw;
+}
+
+/* Imagem de Login */
+
+.container_img_login{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40vw;
+    height: 100vh;
+
+    background-color: var(--cor_quatro);
+}
+
+.container_img_login img{
+
+    width: 750px;
+    height: 450px;
+}
+
+.container_img_login img:hover{
+
+    transition: 0.5s;
+
+    width: 45vw;
+    height: 55vh;
+}
+
+.container_img_login img:not(:hover){
+
+    transition: 0.5s;
+
+    width: 40vw;
+    height: 50vh;
+}
+
+.posicao_dos_inputs_login{
+
+    margin-left: 7vw;
+}
+
+/* Posição da div nome */
+
+.input_nome_login{
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Posição da div email */
+
+.input_email_login{
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Posição da div senha */
+
+.input_senha_login{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Input Nome */
+
+.input_nome_login input{
+    
+    box-sizing: border-box;
+    
+    width: 24vw;
+    height: 6vh;
+    padding-left: 0.8vw;
+    
+    font-size: 1vw;
+    font-family: var(--tipografia_secundaria);
+    
+    background: var(--cor_tres);
+    border: 0.1vw solid var(--cor_cinco);
+    border-radius: 0.8vw;
+    
+    color: var(--cor_cinco);
+}
+
+/* Label Nome */
+
+.input_nome_login label{
+    
+    font-family: var(--tipografia_primaria);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 5vh;
+    
+    margin-bottom: 0%;
+    margin-top: 8vh;
+    
+    color: var(--cor_um);
+}
+
+/* Input Email */
+
+.input_email_login input{
+    
+    box-sizing: border-box;
+    
+    width: 24vw;
+    height: 6vh;
+    padding-left: 0.8vw;
+    
+    font-size: 1vw;
+    font-family: var(--tipografia_secundaria);
+    
+    background: var(--cor_tres);
+    border: 0.1vw solid var(--cor_cinco);
+    border-radius: 0.8vw;
+    
+    color: var(--cor_cinco);
+}
+
+/* Label Email */
+
+.input_email_login label{
+    
+    font-family: var(--tipografia_primaria);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 5vh;
+    
+    margin-bottom: 0%;
+    margin-top: 2vh;
+    
+    color: var(--cor_um);
+}
+
+/* Input Senha */
+
+.input_senha_login input{
+    
+    box-sizing: border-box;
+    
+    width: 24vw;
+    height: 6vh;
+    padding-left: 0.8vw;
+    
+    font-size: 1vw;
+    font-family: var(--tipografia_secundaria);
+    
+    background: var(--cor_tres);
+    border: 0.1vw solid var(--cor_cinco);
+    border-radius: 0.8vw;
+    
+    color: var(--cor_cinco);
+}
+
+/* Label Senha */
+
+.input_senha_login label{
+    
+    font-family: var(--tipografia_primaria);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 5vh;
+    
+    margin-bottom: 0%;
+    margin-top: 2vh;
+    
+    color: var(--cor_um);
+}
+
+.input_senha_login_dv{
+
+    display: flex;
+
+}
+
+/* Confirmar Senha Botão */
+
+.input_senha_login_dv img{
+
+    width: 1.8vw;
+    height: 4vh;
+
+    position: fixed;
+
+    top: 28.7vw;
+    bottom: 0vw;
+    left: 68.5vw;
+    right: 0vw;
+}
+
+.input_senha_login_dv button{
+
+    width: 1.5vw;
+    height: 6.5vh;
+
+    margin-left: -2.5vw;
+
+    border: 0px;
+    background-color: transparent;
+}
+
+input:focus{
+
+    border: 1.5px solid var(--cor_quatro);
+    outline: none;
+}
+
+/* Botão */
+
+.botao_login {
+
+    font-family: var(--tipografia_primaria);
+    font-weight: bold;
+    font-size: 1vw;
+
+    height: 5.5vh;
+    width: 13vw;
+    margin-left: 7vw;
+    margin-top: 5vh;
+
+    border: 0.1vw solid var(--cor_cinco);
+    border-radius: 0.8vw;
+
+    cursor: pointer;
+
+    background-color: var(--cor_cinco);
+    color: var(--cor_tres);
+}
+
+.botao_login:hover{
+
+    transition: 0.2s;
+
+    border: 0.1vw solid var(--cor_quatro);
+
+    background-color: var(--cor_quatro);
+    color: var(--cor_cinco);
+}
+
+.botao_login:not(:hover){
+
+    transition: 0.3s;
+
+    background-color: var(--cor_cinco);
+    color: var(--cor_tres);
+}
+
+/* Não possui conta texto */
+
+.nao_possui_conta p{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    font-style: normal;
+    
+    margin-top: 7vh;
+    margin-left: 7vw;
+    
+    color: var(--cor_um);
+}
+
+.nao_possui_conta_link{
+
+    border: 0px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: var(--cor_cinco);
+    background-color: var(--cor_tres);
+}
+
+.nao_possui_conta_link:hover{
+
+    text-decoration: underline;
+
+}
+
+.dv_do_botao_login{
+
+    display: flex;
+    align-items: center;
+}
+
+.dv_massege_error{
+
+    margin-top: 2.5vw;
+    margin-left: 1vw;
+
+    font-family: var(--tipografia_primaria);
+    font-weight: bold;
+    font-size: 1vw;
+
+    color: red;
+}
