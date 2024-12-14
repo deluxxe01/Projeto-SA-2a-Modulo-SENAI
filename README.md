@@ -11,7 +11,7 @@
 
 <p>Seja bem vindo a este repositório! Neste projeto desenvolvemos um site de agendamentos, com o intuito de facilitar o acesso as consultas para tratamento de câncer!</p>
 
-## Desenvolvimento
+## 🎨 Desenvolvimento
 
 <p>Logo abaixo está uma imagem de como ficou a prototipação de telas quando entregue o projeto, foram um total de 24 WireFrames desenvolvidos, porem para o Figma tivemos que fazer em torno de 27 páginas!</p>
 
