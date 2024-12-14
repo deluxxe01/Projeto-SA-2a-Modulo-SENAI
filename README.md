@@ -11,6 +11,12 @@
 
 <p>Seja bem vindo a este repositório! Neste projeto desenvolvemos um site de agendamentos, com o intuito de facilitar o acesso as consultas para tratamento de câncer!</p>
 
+# 👑 Nossa Equipe 
+
+<p>Aqui esta a nossa equipe, descrevendo um pouquinho sobre o que cada um exerceu neste projeto!</p>
+
+
+
 ## 🎨 Desenvolvimento
 
 <p>Logo abaixo está uma imagem de como ficou a prototipação de telas quando entregue o projeto, foram um total de 24 WireFrames desenvolvidos, porem para o Figma tivemos que fazer em torno de 27 páginas!</p>
@@ -29,4 +35,3 @@
 
 <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Slide_Um.png'/>
 <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Slide_Dois.png'/>
-
