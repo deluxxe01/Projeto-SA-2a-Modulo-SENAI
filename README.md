@@ -11,7 +11,7 @@
 
 <p>Seja bem vindo a este repositório! Neste projeto desenvolvemos um site de agendamentos, com o intuito de facilitar o acesso as consultas para tratamento de câncer!</p>
 
-## <img src='https://media.tenor.com/images/9b507b5b7a9ba54417938853b2f08199/tenor.gif' width='25px' height='25px'/> Nossa Equipe 
+## <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Gif_Coroa.gif' width='25px' height='25px'/> Nossa Equipe 
 
 <p>Aqui esta a nossa equipe, caso você queira acessar o GitHub de alguns dos membros deste projeto deixarei o link logo abaixo! E irei colocar meu link de perfil também 😋</p>
 
