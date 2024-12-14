@@ -17,5 +17,8 @@
 
 <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Prototipagem_Figma.png'/>
 
-<p>Caso você queira ver o Figma detalhadamente, acesse o link para visitar a prototipagem do projeto!</p>
+<p>Caso você queira ver o Figma detalhadamente, clique no botão para visitar a prototipagem do projeto!</p>
+<a href='https://www.figma.com/design/VizoKBMnKxm9Z9LTnxk8gb/OncoMed-S.A?t=AahHoVgF3qlPIBWa-1'>
+<button>Acesse o Figma!</button>
+</a>
 
