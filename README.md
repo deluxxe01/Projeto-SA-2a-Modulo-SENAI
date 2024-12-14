@@ -17,7 +17,9 @@
 
 <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Equipe_SA.png'/>
 
-<ul>Nicholas:
+<ul>
+  
+  <h5>Nicholas:</h5>
 
 <li>BackEnd</li>
 <li>Página Cadastro (Paciente)</li>
