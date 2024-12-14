@@ -19,6 +19,7 @@
 
 <p>Caso você queira ver o Figma detalhadamente, clique no botão para visitar a prototipagem do projeto!</p>
 <a href='https://www.figma.com/design/VizoKBMnKxm9Z9LTnxk8gb/OncoMed-S.A?t=AahHoVgF3qlPIBWa-1'>Acesse o Figma</a>✔
-<br/>
+<br>
+<br>
 <p>Criamos um slide no Canva para explicar de uma forma geral, nossos objetivos, público alvo e também a marca em si. Caso deseja visualizar o nosso slide, clique no link abaixo!</p>
 
