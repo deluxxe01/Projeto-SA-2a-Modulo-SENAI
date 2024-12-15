@@ -51,3 +51,5 @@
 <p>Seguindo para paleta de cores e as tipografias. Bom, as tipografias, agente decidiu utilizar 2, sendo a tipografia primária a NUNITO, e a tipografia secundária, "POPPINS". Indo para paleta de cores, temos 5, sendo as principais. #437118 - Verde Escuro, #afd06e - Verde Claro, #f5f5f5 - Branco Gelo, #87aece - Azul Claro e por fim #1d2a62 - Azul Escuro. As cores azuis tem como um significado de acolhimento, calma/tranquilidade, já as cores verdes representando natureza, saúde e bem estar!</p>
 
 ## <img src='http://media.giphy.com/media/MzX5hCfR5nP20/giphy.gif' width='25px' height='25px'/> Instalação do Projeto
+
+<p>Indo para instalaçãoi do projeto, é bem simples! Primeiro o que você deve fazer, é escolher algum lugar no explorador de arquivos de seu computador para colocar o projeto em sua maquina!</p>
