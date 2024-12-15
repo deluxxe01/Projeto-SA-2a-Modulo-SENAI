@@ -137,7 +137,7 @@
 <p>Indo para o banco de dados, crie um database com o nome que desejar. nele você criará um script, inserindo os seguintes comandos:</p>
 
 ```sql
-  CREATE TABLE pacientes(
+ CREATE TABLE pacientes(
 
  id_paciente SERIAL PRIMARY KEY,
  nome VARCHAR(100) NOT NULL,
@@ -149,9 +149,9 @@
  senha VARCHAR(14) NOT NULL,
  imagem_de_perfil VARCHAR(5000) NOT NULL,
  telefone VARCHAR(20)
-);
+ );
 
-CREATE TABLE medicos(
+ CREATE TABLE medicos(
 
  id_medico SERIAL PRIMARY KEY,
  nome VARCHAR(100) NOT NULL,
@@ -162,24 +162,24 @@ CREATE TABLE medicos(
  genero VARCHAR(20) NOT NULL,
  senha VARCHAR(14) NOT NULL,
  imagem_de_perfil VARCHAR(5000) NOT NULL,
- telefone VARCHAR(20)
-	
-);
+ telefone VARCHAR(20)	
+ );
 
-create table marcarConsulta(
+CREATE TABLE marcarConsulta(
 
-	id_consulta SERIAL PRIMARY KEY,
-	data_agendamento DATE NOT NULL,
-	tipo_consulta VARCHAR(200) NOT NULL,
-	horario TIME NOT NULL,
-	observacoes VARCHAR(600) NOT NULL,
-	medico_designado VARCHAR(50),
+id_consulta SERIAL PRIMARY KEY,
+data_agendamento DATE NOT NULL,
+tipo_consulta VARCHAR(200) NOT NULL,
+horario TIME NOT NULL,
+observacoes VARCHAR(600) NOT NULL,
+medico_designado VARCHAR(50),
 	
-	id_paciente INT,
-	FOREIGN KEY (id_paciente) REFERENCES pacientes (id_paciente)
+id_paciente INT,
+FOREIGN KEY (id_paciente) REFERENCES pacientes (id_paciente)
 );
 
 CREATE TABLE admin(
+
  id_admin SERIAL PRIMARY KEY,
  nome VARCHAR(100) NOT NULL,
  email VARCHAR(50) NOT NULL,
@@ -187,6 +187,7 @@ CREATE TABLE admin(
 );
 
 CREATE TABLE blog (
+
  id_blog SERIAL PRIMARY KEY,
  titulo VARCHAR(100) NOT NULL,
  descricao VARCHAR(300) NOT NULL,
