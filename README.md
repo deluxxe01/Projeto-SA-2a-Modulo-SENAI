@@ -85,3 +85,7 @@
 ```git
   npm i emailjs-com
 ```
+
+```git
+  npm i @fullcalendar/react
+```
