@@ -61,3 +61,5 @@
 ```git
   git clone https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI.git
 ```
+
+<p>Após clonar o projeto em seu computador, você ainda precisa instalar algumas dependências do NodeJS no projeto.</p>
