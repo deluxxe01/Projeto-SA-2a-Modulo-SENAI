@@ -219,11 +219,14 @@ const pool = new Pool({
     user: 'postgres',
     host: 'localhost',
     database: 'template',
-    password: 'senai',
+    password: 'postgres',
     port: 5432,
 });
-
 ```
+
+<p>Você deve mudar algumas coisinhas ali, no "user:", você deve colocar seu nome de usuário do postgreSQL, já no host, como falei anteriormente, já que vamos utilizar o localhost como hospedagem, então deixe o "host:" do jeito que está!</p>
+
+<p>O "database:", você deve colocar o nome do database na qual você criou todas aquelas tabelas, o "password:", seria sua senha do postgreSQL, e por fim o "port:", nele você deve colocar a porta na qual o postgres está sendo rodado, por padrão estas informações como user, password e até mesmo port já vem por padrão no SQL, caso suas informações do postgreSQL são exatamente como estão no projeto, não será necessário a mudança dos valores!</p>
 
 ## <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Gif_React.gif' width='25px' height='25px'/> Inicialização do Projeto
 
