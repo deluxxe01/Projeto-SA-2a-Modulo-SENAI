@@ -57,3 +57,7 @@
 <img src='https://github.com/user-attachments/assets/6b7c8a4a-0386-4aa4-9e01-2e54d330e622'/>
 
 <p>Após abrir o prompt de commando com o caminho que você queira, selecionado, execute o seguinte commando:</p>
+
+```git
+  git clone 
+```
