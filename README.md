@@ -101,3 +101,27 @@
 ```git
   npm i @fullcalendar/interaction
 ```
+
+<h4>Explicação:</h4>
+
+<p>O "npm i", é para instalar as o node em seu projeto, assim podendo inicializar o servidor podendo abrir no navegador o projeto localmente. Já o axios é uma biblioteca cujo neste projeto tem como função de passar os dados do front para o backend. Caso queira acessar o axios deixarei o link abaixo:</p>
+
+<a href='https://axios-http.com/ptbr/docs/intro'>Acesse o Axios</a>
+
+<p>Então iremos para o "npm i react-input-mask" tendo como função de criar inputs que já possuem algunas caracteres já inseridos e também entre outras funcionalidades. Um belo exemplo é para inputs de CPF ou Telefone. O "npm i react-router-dom" serve para ter a interlocação do usuário entre outras páginas do projeto (Links Internos), ou até mesmo transferência de dados através do arquivo "GlobalContext.jsx". Indo para o "npm i emailjs-com", é uma biblioteca cujo possui sua funcionalidade de enviar um email para o ADM do site, com as informações dos cadastrantes seja paciente ou médico (no caso deste pojeto);</p>
+
+<p>Após a instalação de toodas estas bibliotecas, vamos agora instalar as bibliotecas do backend, agora você abrira a pasta "back" no explorador de arquivos e abra o prompt de commando. Feito isso, digite os seguintes commandos:</p>
+
+```git
+  npm i 
+```
+
+```git
+  npm i pg
+```
+
+```git
+  npm i express
+```
+
+
