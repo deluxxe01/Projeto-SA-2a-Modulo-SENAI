@@ -203,6 +203,28 @@ INSERT INTO admin VALUES (001, 'Admin', 'admin@gmail.com','123')
 
 <p>Feito isso, somente clique no botão de play para cirar suas respectivas tabelas!</p>
 
+## <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Gif_Node.gif' width='25px' height='25px'/> Configurando o BackEnd 
+
+<p>Após você já ter configurado o banco de dados, vamos então para a configuração do back!</p>
+
+<p>Abra o arquivo do backend, neste projeto ele está nomeado como "server.js", nele haverá este código escrito:</p>
+
+```js
+const express = require('express');
+const cors = require('cors');
+const { Pool } = require('pg');
+
+const app = express();
+const pool = new Pool({
+    user: 'postgres',
+    host: 'localhost',
+    database: 'template',
+    password: 'senai',
+    port: 5432,
+});
+
+```
+
 ## <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Gif_React.gif' width='25px' height='25px'/> Inicialização do Projeto
 
 <p>A algumas maneiras de inicializar o projeto, porém vou lhe dizer como faço para rodar o projeto na minha máquina.</p>
