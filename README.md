@@ -10,6 +10,8 @@
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=black)
 ![Figma](https://img.shields.io/badge/Figma-090909?style=for-the-badge&logo=figma&logoColor=white)
 
+![profile-views](https://komarev.com/ghpvc/?username=Projeto-SA-2a-Modulo-SENAI&color=blue)
+
 <p>Seja bem vindo a este repositório! Neste projeto desenvolvemos um site de agendamentos, com o intuito de facilitar o acesso as consultas para tratamento de câncer!</p>
 
 ## <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Gif_Coroa.gif' width='25px' height='25px'/> Nossa Equipe 
