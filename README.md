@@ -130,4 +130,5 @@
   npm i express
 ```
 
+<p>E por fim a instalação das dependências do backend! O "npm i" para a instalação do NodeJS no backend, podendo rodar o servidor do back na porta 3000. "npm i pg" é uma biblioteca que permite você inserir comandos SQL no código. Então o "npm i express" é outra biblioteca, ela serve para você criar rotas do backend para o banco de dados, assim podenedo ocorrer a transferência de dados do back para o PostgreSQL.</p>
 
