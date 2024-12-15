@@ -133,3 +133,21 @@
 <p>E por fim a instalação das dependências do backend! O "npm i" para a instalação do NodeJS no backend, podendo rodar o servidor do back na porta 3000. "npm i pg" é uma biblioteca que permite você inserir comandos SQL no código. Então o "npm i express" é outra biblioteca, ela serve para você criar rotas do backend para o banco de dados, assim podenedo ocorrer a transferência de dados do back para o PostgreSQL.</p>
 
 ## <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Gif_React.gif' width='25px' height='25px'/> Inicialização do Projeto
+
+<p>A algumas maneiras de inicializar o projeto, porém vou lhe dizer como faço para rodar o projeto na minha máquina.</p>
+
+<p>Utilizando o Visual Studio Code, já com a pasta do "Projeto-SA" aberta, abra o terminal utilizando o ( CTRL + ' ) , então digite o seguinte o commando</p>
+
+```git
+  npm run dev
+```
+
+<p>Então ele deve abrir um link do localhost, segure a tecla CTRL e então clique no link, ele abrirá no seu navegador.</p>
+
+<p>Já para inicialização do backend, no explorador de arquivos abra o prompt de comando da mesma maneira que ensinei anteriormente, abrimdo o cmd na pasta "back", aonde se localiza o arquivo chamado "server.js". Feito isso digite o seguinte commando:</p>
+
+```git
+  npm start
+```
+
+<p>A seguinte mensagem deve estar aparecendo: "Servidor rodando na porta 3000"</p>
