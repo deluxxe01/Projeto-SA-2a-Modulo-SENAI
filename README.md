@@ -134,7 +134,7 @@
 
 ## <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/PostgreSQL_Logo.png' width='50px' height='50px'/> Configurando o Banco de Dados
 
-<p>Indo para o banco de dados, crie um database com o nome que desejar. nele você criará um script, inserindo os seguintes comandos:</p>
+<p>Indo para o banco de dados, crie um database com o nome que desejar. Nele você criará um script, inserindo os seguintes comandos:</p>
 
 ```sql
  CREATE TABLE pacientes(
