@@ -52,4 +52,6 @@
 
 ## <img src='http://media.giphy.com/media/MzX5hCfR5nP20/giphy.gif' width='25px' height='25px'/> Instalação do Projeto
 
-<p>Indo para instalaçãoi do projeto, é bem simples! Primeiro o que você deve fazer, é escolher algum lugar no explorador de arquivos de seu computador para colocar o projeto em sua maquina!</p>
+<p>Indo para instalaçãoi do projeto, é bem simples! Primeiro o que você deve fazer, é escolher algum lugar no explorador de arquivos de seu computador para colocar o projeto em sua maquina! Então clique na barra aonde mostra o caminho dos arquivos, e digite "cmd" então pressione "Enter" para abrir o prompt de commando.</p>
+
+
