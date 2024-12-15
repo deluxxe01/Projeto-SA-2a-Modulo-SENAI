@@ -132,7 +132,7 @@
 
 <p>E por fim a instalação das dependências do backend! O "npm i" para a instalação do NodeJS no backend, podendo rodar o servidor do back na porta 3000. "npm i pg" é uma biblioteca que permite você inserir comandos SQL no código. Então o "npm i express" é outra biblioteca, ela serve para você criar rotas do backend para o banco de dados, assim podenedo ocorrer a transferência de dados do back para o PostgreSQL.</p>
 
-## Configurando o Banco de Dados
+## <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/PostgreSQL_Logo.png' width='25px' height='25px'/> Configurando o Banco de Dados
 
 <p>Indo para o banco de dados, crie um database com o nome que desejar. nele você criará um script, inserindo os seguintes comandos:</p>
 
