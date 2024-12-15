@@ -112,7 +112,7 @@
 
 <p>Caso queira acessar o Site do EmailJS acesse o link abaixo:</p>
 <a href='https://www.emailjs.com/'>Acesse o EmailJS</a>
-<br/>
+<br>
 
 <p>Já os npm's "@fullcalendar" é uma biblioteca do react de um calendário, utilizado neste projeto para marcar alguma consulta e registrando a data escolhida para a marcação de consulta no banco de dados!</p>
 
