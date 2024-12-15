@@ -113,6 +113,8 @@
 <p>Caso queira acessar o Site do EmailJS acesse o link abaixo:</p>
 <a href='https://www.emailjs.com/'>Acesse o EmailJS</a>
 
+<p>Já os npm's "@fullcalendar" é uma biblioteca do react de um calendário, utilizado neste projeto para marcar alguma consulta e registrando a data escolhida para a marcação de consulta no banco de dados!</p>
+
 <p>Após a instalação de toodas estas bibliotecas, vamos agora instalar as bibliotecas do backend, agora você abrira a pasta "back" no explorador de arquivos e abra o prompt de commando. Feito isso, digite os seguintes commandos:</p>
 
 ```git
