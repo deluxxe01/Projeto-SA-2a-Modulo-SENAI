@@ -59,5 +59,5 @@
 <p>Após abrir o prompt de commando com o caminho que você queira, selecionado, execute o seguinte commando:</p>
 
 ```git
-  git clone 
+  git clone https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI.git
 ```
