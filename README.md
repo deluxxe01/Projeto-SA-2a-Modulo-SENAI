@@ -54,4 +54,4 @@
 
 <p>Indo para instalaçãoi do projeto, é bem simples! Primeiro o que você deve fazer, é escolher algum lugar no explorador de arquivos de seu computador para colocar o projeto em sua maquina! Então clique na barra aonde mostra o caminho dos arquivos, e digite "cmd" então pressione "Enter" para abrir o prompt de commando.</p>
 
-
+<img src='https://github.com/user-attachments/assets/6b7c8a4a-0386-4aa4-9e01-2e54d330e622'/>
