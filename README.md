@@ -63,3 +63,9 @@
 ```
 
 <p>Após clonar o projeto em seu computador, você ainda precisa instalar algumas dependências do NodeJS no projeto.</p>
+
+<p>Abrindo o prompt de comando novamente porem, desta vez dentro da pasta "Projeto-SA" aonde localiza-se o projeto.</p>
+
+```git
+  
+```
