@@ -132,6 +132,76 @@
 
 <p>E por fim a instalação das dependências do backend! O "npm i" para a instalação do NodeJS no backend, podendo rodar o servidor do back na porta 3000. "npm i pg" é uma biblioteca que permite você inserir comandos SQL no código. Então o "npm i express" é outra biblioteca, ela serve para você criar rotas do backend para o banco de dados, assim podenedo ocorrer a transferência de dados do back para o PostgreSQL.</p>
 
+## Configurando o Banco de Dados
+
+<p>Indo para o banco de dados, crie um database com o nome que desejar. nele você criará um script, inserindo os seguintes comandos:</p>
+
+```sql
+  CREATE TABLE pacientes(
+
+ id_paciente SERIAL PRIMARY KEY,
+ nome VARCHAR(100) NOT NULL,
+ cpf CHAR(14) UNIQUE NOT NULL,
+ cep CHAR(9)  NOT NULL,
+ email VARCHAR(100) UNIQUE NOT NULL,
+ data_de_nascimento DATE NOT NULL,
+ genero VARCHAR(20) NOT NULL,
+ senha VARCHAR(14) NOT NULL,
+ imagem_de_perfil VARCHAR(5000) NOT NULL,
+ telefone VARCHAR(20)
+);
+
+CREATE TABLE medicos(
+
+ id_medico SERIAL PRIMARY KEY,
+ nome VARCHAR(100) NOT NULL,
+ cpf CHAR(14) UNIQUE NOT NULL,
+ crm CHAR(13) UNIQUE NOT NULL,
+ email VARCHAR(100) UNIQUE NOT NULL,
+ data_de_nascimento DATE NOT NULL,
+ genero VARCHAR(20) NOT NULL,
+ senha VARCHAR(14) NOT NULL,
+ imagem_de_perfil VARCHAR(5000) NOT NULL,
+ telefone VARCHAR(20)
+	
+);
+
+create table marcarConsulta(
+
+	id_consulta SERIAL PRIMARY KEY,
+	data_agendamento DATE NOT NULL,
+	tipo_consulta VARCHAR(200) NOT NULL,
+	horario TIME NOT NULL,
+	observacoes VARCHAR(600) NOT NULL,
+	medico_designado VARCHAR(50),
+	
+	id_paciente INT,
+	FOREIGN KEY (id_paciente) REFERENCES pacientes (id_paciente)
+);
+
+CREATE TABLE admin(
+ id_admin SERIAL PRIMARY KEY,
+ nome VARCHAR(100) NOT NULL,
+ email VARCHAR(50) NOT NULL,
+ senha VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE blog (
+ id_blog SERIAL PRIMARY KEY,
+ titulo VARCHAR(100) NOT NULL,
+ descricao VARCHAR(300) NOT NULL,
+ data_publicacao DATE NOT NULL,
+ autor VARCHAR(100) NOT NULL,
+ categoria VARCHAR (100) NOT NULL,
+ id_admin INT,
+ FOREIGN KEY (id_admin) REFERENCES admin(id_admin)
+ );
+
+INSERT INTO admin VALUES (001, 'Admin', 'admin@gmail.com','123')
+```
+
+<p>Feito isso, somente clique no botão de play para cirar suas respectivas tabelas!</p>
+
 ## <img src='https://github.com/nicholas-sc-08/Projeto-SA-2a-Modulo-SENAI/blob/main/Imagens_Readme/Gif_React.gif' width='25px' height='25px'/> Inicialização do Projeto
 
 <p>A algumas maneiras de inicializar o projeto, porém vou lhe dizer como faço para rodar o projeto na minha máquina.</p>
