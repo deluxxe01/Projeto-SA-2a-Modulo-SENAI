@@ -110,6 +110,9 @@
 
 <p>Então iremos para o "npm i react-input-mask" tendo como função de criar inputs que já possuem algunas caracteres já inseridos e também entre outras funcionalidades. Um belo exemplo é para inputs de CPF ou Telefone. O "npm i react-router-dom" serve para ter a interlocação do usuário entre outras páginas do projeto (Links Internos), ou até mesmo transferência de dados através do arquivo "GlobalContext.jsx". Indo para o "npm i emailjs-com", é uma biblioteca cujo possui sua funcionalidade de enviar um email para o ADM do site, com as informações dos cadastrantes seja paciente ou médico (no caso deste pojeto);</p>
 
+<p>Caso queira acessar o Site do EmailJS acesse o link abaixo:</p>
+<a href='https://www.emailjs.com/'>Acesse o EmailJS</a>
+
 <p>Após a instalação de toodas estas bibliotecas, vamos agora instalar as bibliotecas do backend, agora você abrira a pasta "back" no explorador de arquivos e abra o prompt de commando. Feito isso, digite os seguintes commandos:</p>
 
 ```git
