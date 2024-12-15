@@ -247,3 +247,8 @@ const pool = new Pool({
 ```
 
 <p>A seguinte mensagem deve estar aparecendo: "Servidor rodando na porta 3000"</p>
+
+<p>Se tudo estiver configurado certo já está pronto! Divirta-se!!</p>
+
+
+<h6>Made by Nicholas Serencovich Carvalho</h6>
