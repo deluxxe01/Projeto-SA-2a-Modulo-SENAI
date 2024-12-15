@@ -89,3 +89,15 @@
 ```git
   npm i @fullcalendar/react
 ```
+
+```git
+  npm i @fullcalendar/daygrid
+```
+
+```git
+  npm i @fullcalendar/timegrid
+```
+
+```git
+  npm i @fullcalendar/interaction
+```
